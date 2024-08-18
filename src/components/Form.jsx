@@ -8,7 +8,12 @@ function Form(props) {
   }
   return (
     <div className="form">
-      <input type="text" onChange={handleChange} value={tasks} />
+      <input
+        type="text"
+        onChange={handleChange}
+        value={tasks}
+        placeholder="Add Task"
+      />
       <button
         onClick={() => {
           props.onClick(tasks);
