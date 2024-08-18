@@ -7,9 +7,11 @@ function App() {
   const [taskArr, setItems] = useState([]);
 
   function handleClick(tasks) {
-    setItems((preValue) => {
-      return [...preValue, tasks];
-    });
+    if (tasks !== "") {
+      setItems((preValue) => {
+        return [...preValue, tasks];
+      });
+    }
   }
 
   function deleteTask(id) {
