@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/raect-ToDoApp/static/js/main.ce0149ea.js",
-    "index.html": "/raect-ToDoApp/index.html",
-    "main.ce0149ea.js.map": "/raect-ToDoApp/static/js/main.ce0149ea.js.map"
+    "main.js": "/react-ToDoApp/static/js/main.ce0149ea.js",
+    "index.html": "/react-ToDoApp/index.html",
+    "main.ce0149ea.js.map": "/react-ToDoApp/static/js/main.ce0149ea.js.map"
   },
   "entrypoints": [
     "static/js/main.ce0149ea.js"
